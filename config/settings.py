@@ -43,7 +43,7 @@ def get_env_variable(var_name):
 DEBUG = env('DEBUG')
 
 SECRET_KEY = get_env_variable('SECRET_KEY')
-ALLOWED_HOSTS = ['ccrmapp.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
